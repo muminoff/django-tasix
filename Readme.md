@@ -8,21 +8,24 @@ Simple django app to detect ip adresses/ranges of coming HTTP requests in middle
 
 # Requirements
 
-* Python (2.7, 3.2, 3.3, 3.4, 3.5)
-* Django (1.9, 1.10)
+* Python (3.2, 3.3, 3.4, 3.5)
+* Django (1.10)
 
 # Installation
 
-Install using `pip`...
+Install using '`pip`':
 
     pip install django-tasix
 
-Add `'tasix'` to your `MIDDLEWARE_CLASSES` setting.
+Add `'tasix'` to your `MIDDLEWARE_CLASSES` setting:
 
     MIDDLEWARE_CLASSES = (
         # other middleware classes
         'tasix.middleware.TasixMiddleware',
     )
+
+## Disclaimer
+Network range is being fetched manually from `http://tasix.sarkor.uz/full`, meaning correctness is based on 3rd party ISP provider which releases network information periodically.
 
 ## License
 BSD
