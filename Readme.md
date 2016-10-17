@@ -18,6 +18,7 @@ Install using `pip`...
     pip install django-tasix
 
 Add `'tasix'` to your `MIDDLEWARE_CLASSES` setting.
+
     MIDDLEWARE_CLASSES = (
         # other middleware classes
         'tasix.middleware.TasixMiddleware',
