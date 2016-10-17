@@ -38,6 +38,7 @@ setup(
     install_requires=[
         'netaddr',
     ],
+    tests_require=['django'],
     classifiers=[
         'Development Status :: 1 - Planning',
         'Environment :: Web Environment',
