@@ -13,4 +13,4 @@ class TasixMiddleware(object):
         ip_address = request.META['REMOTE_ADDR']
         allow_tasix_only = getattr(settings, "ALLOW_TASIX", True)
         if allow_tasix and not is_tasix_member(ip_address):
-            return HttpResponseForbidden
+            return HttpResponseForbidden("")
