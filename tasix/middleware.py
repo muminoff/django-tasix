@@ -11,6 +11,6 @@ class TasixMiddleware(object):
 
     def process_request(self, request):
         ip_address = request.META['REMOTE_ADDR']
-        allow_tasix_only = getattr(settings, "ALLOW_TASIX", True)
+        allow_tasix = getattr(settings, "ALLOW_TASIX", True)
         if allow_tasix and not is_tasix_member(ip_address):
             return HttpResponseForbidden()
