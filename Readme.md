@@ -5,3 +5,34 @@ Data exchange network in Uzbekistan, where many domestic ISP providers give acce
 
 ## What is `django-tasix`?
 Simple django app to detect ip adresses/ranges of coming HTTP requests in middleware layer.
+
+# Requirements
+
+* Python (2.7, 3.2, 3.3, 3.4, 3.5)
+* Django (1.9, 1.10)
+
+# Installation
+
+Install using `pip`...
+
+    pip install django-tasix
+
+Add `'tasix'` to your `INSTALLED_APPS` setting.
+
+    INSTALLED_APPS = (
+        ...
+        'tasix',
+    )
+
+# Example
+
+Startup up a new project like so...
+
+    pip install django
+    pip install django-tasix
+    django-admin.py startproject example .
+    ./manage.py migrate
+    ./manage.py createsuperuser
+
+## License
+BSD
