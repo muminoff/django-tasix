@@ -24,15 +24,5 @@ Add `'tasix'` to your `MIDDLEWARE_CLASSES` setting.
         'tasix.middleware.TasixMiddleware',
     )
 
-# Example
-
-Startup up a new project like so...
-
-    pip install django
-    pip install django-tasix
-    django-admin.py startproject example .
-    ./manage.py migrate
-    ./manage.py createsuperuser
-
 ## License
 BSD
