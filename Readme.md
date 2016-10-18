@@ -7,7 +7,7 @@ Status](https://travis-ci.org/muminoff/django-tasix.svg?branch=master)](https://
 Data exchange network in Uzbekistan, where many domestic ISP providers give access to resources within the network to their subscribers for free.
 
 ## What is `django-tasix`?
-Simple django app to block non-tasix ip adresses of coming HTTP requests in middleware layer.
+Simple django app to block non-tasix ip adresses.
 
 # Requirements
 

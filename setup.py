@@ -29,7 +29,7 @@ setup(
     version='0.3.0',
     url='https://github.com/muminoff/django-tasix',
     license='BSD',
-    description='Simple django app to allow/block IP addresses and ranges outside the Tas-IX network',
+    description='Simple django app to block non-tasix ip adresses',
     long_description=open('Readme.md', 'r').read(),
     author='Sardor Muminov',
     author_email='smuminov@gmail.com',
