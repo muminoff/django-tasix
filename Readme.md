@@ -48,6 +48,13 @@ Import `allow_tasix` decorator in your view
     def index_view(request):
         return HttpResponse('Only Tas-IX users can view this')
 
+# Contribution
+
+Running tests
+
+If you are using a virtualenv, all you need to do is:
+
+    $ make test
 
 # Disclaimer
 Network range is being fetched manually from `http://tasix.sarkor.uz/full`, meaning correctness is based on 3rd party ISP provider which releases network information periodically.
