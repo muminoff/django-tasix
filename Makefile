@@ -10,3 +10,7 @@ clean:
 
 test: dependencies clean
 	@tox
+
+release: dependencies clean
+	@python setup.py sdist upload
+	@python setup.py bdist_wheel upload

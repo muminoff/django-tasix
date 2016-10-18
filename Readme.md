@@ -20,21 +20,23 @@ Install using `pip`:
 
     pip install django-tasix
 
+# Usage
+
 There are 2 ways for using this app:
 
 1. Middleware style (blocks every request outside Tas-IX)
 2. Decorator style (blocks certain requests outside Tas-IX)
 
-### Middleware style
+## Middleware style
 
-Add `'tasix'` to your `MIDDLEWARE_CLASSES` setting:
+Add `'tasix.middleware.TasixMiddleware'` to your `MIDDLEWARE_CLASSES` setting:
 
     MIDDLEWARE_CLASSES = (
         # other middleware classes
         'tasix.middleware.TasixMiddleware',
     )
 
-### Decorator style
+## Decorator style
 
 Import `allow_tasix` decorator in your view
 
@@ -47,8 +49,8 @@ Import `allow_tasix` decorator in your view
         return HttpResponse('Only Tas-IX users can view this')
 
 
-## Disclaimer
+# Disclaimer
 Network range is being fetched manually from `http://tasix.sarkor.uz/full`, meaning correctness is based on 3rd party ISP provider which releases network information periodically.
 
-## License
+# License
 BSD
