@@ -1,5 +1,8 @@
 # django-tasix
 
+[![Build
+Status](https://travis-ci.org/muminoff/django-tasix.svg?branch=master)](https://travis-ci.org/muminoff/django-tasix)
+
 ## What is Tas-IX?
 Data exchange network in Uzbekistan, where many domestic ISP providers give access to resources within the network to their subscribers for free.
 
