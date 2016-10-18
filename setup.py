@@ -26,9 +26,9 @@ def get_package_data(package):
 
 setup(
     name='django-tasix',
-    version='0.2.0',
+    version='0.3.0',
     url='https://github.com/muminoff/django-tasix',
-    license='MIT',
+    license='BSD',
     description='Simple django app to allow/block IP addresses and ranges outside the Tas-IX network',
     long_description=open('Readme.md', 'r').read(),
     author='Sardor Muminov',

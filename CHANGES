@@ -3,6 +3,9 @@ django-tasix
 
 Changelog
 
+2016/10/18 - Release 0.3.0
+    - Added decorator style blocking
 2016/10/17 - Release 0.2.0
     - Added tests
 2016/10/17 - Release 0.1.0
+    - Main middleware feature
